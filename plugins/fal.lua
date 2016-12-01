@@ -4,7 +4,7 @@ local function run(msg)
 	local fal = res:split(",") 
 	return fal[math.random(#fal)]
 end
---Fal Hafez Plugin v1.0 By @AmirDark
+--Fal Hafez Plugin v1.0 By @pv_khof
 return {
 	description = "500 Fal Hafez",
 	usage = "!joke : send random fal",
